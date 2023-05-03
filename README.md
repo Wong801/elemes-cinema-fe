@@ -1,0 +1,27 @@
+# elemes-cinema
+
+Cinema menu app created with Vue 3 + TypeScript.
+
+## Project Setup
+
+```sh
+npm install
+```
+
+### Compile and Hot-Reload for Development (localhost:5173)
+
+```sh
+npm run dev
+```
+
+### Type-Check, Compile and Minify for Production
+
+```sh
+npm run build
+```
+
+### Lint with [ESLint](https://eslint.org/)
+
+```sh
+npm run lint
+```
