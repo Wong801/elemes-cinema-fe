@@ -104,8 +104,7 @@ onMounted(async () => {
         sm:grid-cols-3
         grid-cols-2
         gap-x-5 gap-y-10
-        w-auto
-        lg:w-max
+        w-full
       "
     >
       <Movie

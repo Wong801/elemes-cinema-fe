@@ -7,7 +7,7 @@ import Footer from './components/Footer.vue';
 
 <template>
   <Header />
-  <div class="lg:flex flex-none w-full bg-gray-light">
+  <div class="lg:flex flex-none w-full bg-gray-light overflow-x-hidden">
     <Sidebar />
     <router-view class="lg:px-2 px-0 lg:py-10 py-2 w-full" />
   </div>

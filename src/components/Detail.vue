@@ -45,12 +45,14 @@ const data = computed<MovieInterface | TV>(() => {
         py-8
         px-4
         w-full
+        lg:bg-left
+        bg-center
       "
       :style="{ 
         'background-image': `url(https://image.tmdb.org/t/p/w1280${data.backdrop_path})`,
         'background-size': 'cover',
         'background-repeat': 'no-repeat'
-        }"
+      }"
     >
       <Movie :movie="data" />
       <div class="w-full flex flex-col justify-between lg:p-0 p-6 bg-black bg-opacity-20">
@@ -70,7 +72,7 @@ const data = computed<MovieInterface | TV>(() => {
     </div>
     <div class="mt-[3.75rem]">
       <h1 class="lg:mx-2 mx-6">Popular Shows</h1>
-      <Movies :withPagination="false" :limit="3" :category="isTV ? 'tv' : 'movie'" class="my-10" />
+      <Movies :withPagination="false" :limit="6" :category="isTV ? 'tv' : 'movie'" class="my-10" />
     </div>
   </div>
   <div v-else>

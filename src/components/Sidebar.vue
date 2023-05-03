@@ -17,11 +17,9 @@ const toggleMenu = () => {
       max-w-[17rem]
       bg-gray-dark
       min-h-screen
-      py-5
       hidden
       lg:block
     "
-    id="movie-menu"
   >
     <div class="px-6 py-4 bg-gray-600">Movies</div>
     <Link text="Popular" type="sidebar" href="/" />
